@@ -1,4 +1,4 @@
-package com.pasindu.student;
+package com.pasindu.school;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class StudentApplication {
+public class SchoolApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentApplication.class, args);
+		SpringApplication.run(SchoolApplication.class, args);
 	}
 
 	@Bean
@@ -17,4 +17,5 @@ public class StudentApplication {
 	{
 		return new ModelMapper();
 	}
+
 }
